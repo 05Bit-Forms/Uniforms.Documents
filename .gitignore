@@ -1,0 +1,46 @@
+#Autosave files
+*~
+
+# Build
+/Build
+
+# Auto-built docs
+Docs/_html
+
+# Config
+**/Config/config.json
+
+# Auto-restored packages and components
+/packages
+/Components
+
+# Auto-built resources
+iOS/Resources/*.jpg
+iOS/Resources/*.png
+iOS/Resources/Graphics/*
+Droid/Resources/drawable*
+
+# Build/test output
+obj
+bin
+test-results
+
+# VS sometimes writes these for no apparent reason
+_UpgradeReport_Files
+UpgradeLog.*
+
+# Per-user data
+*.Cache
+*.DS_Store
+*.sln.cache
+*.suo
+*.userprefs
+*.usertasks
+*.user
+
+# ReSharper
+*_Resharper.*
+*.Resharper
+
+# dotCover
+*.dotCover

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Uniforms.Documents</id>
+    <version>0.2</version>
+    <title>Cross-platform assets and application documents helpers</title>
+    <authors>Alexey Kinëv</authors>
+    <owners>Alexey Kinëv</owners>
+    <description>Cross-platform assets and application documents helpers</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Initial alpha release: basic features</releaseNotes>
+    <copyright>Copyright 2016, 05Bit</copyright>
+    <tags>xamarin, pcl, xamarin.forms, ios</tags>
+    <dependencies>
+        <dependency id="Xamarin.Forms" version="2.1.0" />
+        <!--group targetFramework="net">
+        </group>
+        <group targetFramework="win">
+        </group>
+        <group targetFramework="wp">
+        </group>
+        <group targetFramework="wpa">
+        </group>
+        <group targetFramework="MonoAndroid">
+        </group>
+        <group targetFramework="xamarinios10">
+        </group>
+        <group targetFramework="portable-net45+win+wpa81+wp80">
+        </group>
+        <group targetFramework="uap">
+        </group>
+        <group targetFramework="dotnet">
+        </group-->
+    </dependencies>
+  </metadata>
+  <files>
+    <!--Core PCL-->
+    <file src="Uniforms.Documents.dll" target="lib\portable-net45+win+wp80+MonoAndroid10+xamarinios10" />
+    <!--file src="Uniforms.Documents.dll.mdb" target="lib\portable-net45+win+wp80+MonoAndroid10+xamarinios10" /-->
+
+    <!--Xamarin.iOS-->
+    <file src="Uniforms.Documents.dll" target="lib\xamarinios10" />
+    <file src="Uniforms.Documents.iOS.dll" target="lib\xamarinios10" />
+    <file src="Uniforms.Documents.iOS.dll.mdb" target="lib\xamarinios10" />
+
+    <!--Xamarin.Droid-->
+    <!--file src="Uniforms.Documents.dll" target="lib\MonoAndroid10" />
+    <file src="Uniforms.Documents.Droid.dll" target="lib\MonoAndroid10" />
+    <file src="Uniforms.Documents.Droid.dll.mdb" target="lib\MonoAndroid10" /-->
+  </files>
+</package>
